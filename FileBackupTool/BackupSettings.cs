@@ -18,27 +18,26 @@ namespace FileBackupTool
         {
             Name = name;
             Description = description;
-            SourceDirectory = sourceDirectory;
-            DestinationDirectory = destinationDirectory;
+            SourceDirectory = ValidateFolderPaths(sourceDirectory);
+            DestinationDirectory = ValidateFolderPaths(destinationDirectory);
         }
 
-        public bool ValidateFolderPaths(string folderPath)
+        public string ValidateFolderPaths(string folderPath)
         {
+
             //Don't allow null or empty strings as folder paths
             if (string.IsNullOrWhiteSpace(folderPath))
             {
                 throw new Exception("The folder path canont be null or empty");
-                //return false;
             }
             //Don't allow non-existant folder paths
             else if (!Directory.Exists(folderPath))
             {
                 throw new Exception("The folder path does not exist");
-                //return false;
             }
             else
             {
-                return true;
+                return folderPath;
             }
         }
     }
