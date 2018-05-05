@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backup.cs" />
     <Compile Include="BackupSettings.cs" />
     <Compile Include="FormNewBackup.cs">
       <SubType>Form</SubType>
