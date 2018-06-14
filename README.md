@@ -1,4 +1,4 @@
-# FileBackupTool
+# File Backup Tool
 This C# tool allows you to backup files and directories.
 
 ![Image of File Backup Tool](https://github.com/MrEdWORD/FileBackupTool/blob/master/ToolScreenshot.png)
