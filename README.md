@@ -14,7 +14,7 @@ This C# tool allows you to backup files and directories.
 1. Be amazed or disappointed, you decide :)
 
 ## Discussion
-My goal was to create an application that let's you select a file or directory and then choose another directory/device to copy it to copy it to a new destination, and then eventually expand on that with more features such as scheduling automatic backups. Because this was just a learning exercise I decided to move on to the next project after the MVP was achieved (i.e. copy X from A to B).
+My goal was to create an application that lets you select a file or directory and then choose another directory/device to copy it to copy it to a new destination, and then eventually expand on that with more features such as scheduling automatic backups. Because this was just a learning exercise I decided to move on to the next project after the MVP was achieved (i.e. copy X from A to B).
 
 I will revisit this repo and pickup from where I left off in the dev branch sometime in the future.
 
