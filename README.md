@@ -19,8 +19,8 @@ My goal was to create an application that lets you select a file or directory an
 I will revisit this repo and pickup from where I left off in the dev branch sometime in the future.
 
 ## TODO
- * Finish writing tests and feel bad this wasn't done first
- * Profile / configuration saving and loading
- * Schedule automatic backups
- * Improve the backup success / failure messaging and reporting
- * Pause, resume, and stop functionality during backup
+- [ ] Finish writing tests and feel bad this wasn't done first
+- [ ] Profile / configuration saving and loading
+- [ ] Schedule automatic backups
+- [ ] Improve the backup success / failure messaging and reporting
+- [ ] Pause, resume, and stop functionality during backup
