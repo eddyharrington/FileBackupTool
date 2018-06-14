@@ -18,10 +18,10 @@ namespace FileBackupTool
             InitializeComponent();
         }
 
-        private void btnBackupTo_Click(object sender, EventArgs e)
+        private void BtnBackupTo_Click(object sender, EventArgs e)
         {
             //Open folder browser dialog and let user choose the DESTINATION folder they want to backup to
-            string folderPath = "";
+            string folderPath;
             FolderBrowserDialog dialog = new FolderBrowserDialog(); //TODO file extensions to exclude
             dialog.Description = "Select the destination folder";
             DialogResult result = dialog.ShowDialog();
@@ -36,7 +36,7 @@ namespace FileBackupTool
         private void btnBackupFrom_Click(object sender, EventArgs e)
         {
             //Open folder browser dialog and let user choose the SOURCE folder they want to backup from
-            string folderPath = "";
+            string folderPath;
             FolderBrowserDialog dialog = new FolderBrowserDialog(); //TODO file extensions to exclude
             dialog.Description = "Select the source folder";
             DialogResult result = dialog.ShowDialog();

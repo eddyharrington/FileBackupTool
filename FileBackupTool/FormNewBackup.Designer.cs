@@ -36,7 +36,7 @@
             this.lblBackupToValidate = new System.Windows.Forms.Label();
             this.txtBoxBackupName = new System.Windows.Forms.TextBox();
             this.lblBackupName = new System.Windows.Forms.Label();
-            this.btnBackupTo = new System.Windows.Forms.Button();
+            this.BtnBackupTo = new System.Windows.Forms.Button();
             this.txtBoxBackupTo = new System.Windows.Forms.TextBox();
             this.lblBackupTo = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -114,15 +114,15 @@
             this.lblBackupName.TabIndex = 21;
             this.lblBackupName.Text = "Backup name:";
             // 
-            // btnBackupTo
+            // BtnBackupTo
             // 
-            this.btnBackupTo.Location = new System.Drawing.Point(310, 31);
-            this.btnBackupTo.Name = "btnBackupTo";
-            this.btnBackupTo.Size = new System.Drawing.Size(75, 23);
-            this.btnBackupTo.TabIndex = 28;
-            this.btnBackupTo.Text = "Browse...";
-            this.btnBackupTo.UseVisualStyleBackColor = true;
-            this.btnBackupTo.Click += new System.EventHandler(this.btnBackupTo_Click);
+            this.BtnBackupTo.Location = new System.Drawing.Point(310, 31);
+            this.BtnBackupTo.Name = "BtnBackupTo";
+            this.BtnBackupTo.Size = new System.Drawing.Size(75, 23);
+            this.BtnBackupTo.TabIndex = 28;
+            this.BtnBackupTo.Text = "Browse...";
+            this.BtnBackupTo.UseVisualStyleBackColor = true;
+            this.BtnBackupTo.Click += new System.EventHandler(this.BtnBackupTo_Click);
             // 
             // txtBoxBackupTo
             // 
@@ -145,7 +145,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 93);
-            this.Controls.Add(this.btnBackupTo);
+            this.Controls.Add(this.BtnBackupTo);
             this.Controls.Add(this.txtBoxBackupTo);
             this.Controls.Add(this.lblBackupTo);
             this.Controls.Add(this.lblBackupName);
@@ -175,7 +175,7 @@
         private System.Windows.Forms.Label lblBackupToValidate;
         private System.Windows.Forms.TextBox txtBoxBackupName;
         private System.Windows.Forms.Label lblBackupName;
-        private System.Windows.Forms.Button btnBackupTo;
+        private System.Windows.Forms.Button BtnBackupTo;
         private System.Windows.Forms.TextBox txtBoxBackupTo;
         private System.Windows.Forms.Label lblBackupTo;
     }

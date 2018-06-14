@@ -7,10 +7,10 @@ using System.IO;
 
 namespace FileBackupTool
 {
-    class Backup
+    public class Backup
     {
         private BackupSettings BackupSetting { get; set; }
-        public int TotalFiles;
+        public int TotalFiles; //TODO should use _namingConvention since they are class level variables
         public int CopiedFiles;
         public int CopiedDirectories;
 
@@ -35,8 +35,6 @@ namespace FileBackupTool
 
         private void DirectoryCopy(string backupSourceDirectory, string backupDestinationDirectory, bool copySubDirs)
         {
-            // Source: https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-copy-directories
-
             // Get the subdirectories for the specified directory.
             DirectoryInfo dir = new DirectoryInfo(backupSourceDirectory);
 
